@@ -1,0 +1,52 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.main_div {
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    height: 700px;
+    margin: auto;
+
+    margin-top: 30px;
+
+    opacity: 0.85;
+}
+
+h1 {
+    background-color: rgb(75, 75, 75);
+    font-family: Segoe UI;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    width: 700px;
+
+    padding: 10px 0;
+} 
+
+.table_chart {
+    width: 500px;
+
+    display: inline-block;
+    text-align: center;
+}
+
+table {
+    margin-left: 0px;
+    vertical-align: middle;
+}
+
+tr{
+    text-align: right;
+    line-height: 25px;
+}
+
+th {
+    padding-left: 120px;
+    font-size: 25px;
+    font-family: Tahoma;
+}
